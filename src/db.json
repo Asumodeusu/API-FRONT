@@ -1,0 +1,62 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Petr",
+      "position": "Director",
+      "avatarUrl": "https://avatarko.ru/img/kartinka/11/film_Iron_man_10435.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Viktor",
+      "position": "Zam_directora",
+      "avatarUrl": "https://avatarko.ru/img/kartinka/13/film_muzhchina_12224.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Alisa",
+      "position": "Secritar",
+      "avatarUrl": "https://avatarko.ru/img/kartinka/24/devushka_igra_LoL_23014.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Alex",
+      "position": "Nachalnic_otdela",
+      "avatarUrl": "https://avatarko.ru/img/kartinka/11/film_Iron_man_10540.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Pavel",
+      "position": "Engineer",
+      "avatarUrl": "https://avatarko.ru/img/kartinka/8/film_Middle-earth_hobbit_Frodo_7802.jpg"
+    }
+  ],
+  "activityTypes": [
+    {
+      "id": 1,
+      "name": "Petr",
+      "color": "Red"
+    },
+    {
+      "id": 2,
+      "name": "Viktor",
+      "color": "Blue"
+    },
+    {
+      "id": 3,
+      "name": "Alisa",
+      "color": "Black"
+    },
+    {
+      "id": 4,
+      "name": "Alex",
+      "color": "Green"
+    },
+    {
+      "id": 5,
+      "name": "Pavel",
+      "color": "Yellow"
+    }
+  ],
+  "schedule": []
+}
