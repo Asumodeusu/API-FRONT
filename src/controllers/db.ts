@@ -1,10 +1,10 @@
-import { JSONFilePreset } from 'lowdb/node'
-import type { Database } from '../data';
+import { JSONFilePreset } from "lowdb/node";
+import type { Database } from "../types/data";
 
 const defaultData: Database = {
   employees: [],
   activityTypes: [],
-  schedule: []
+  schedule: [],
 };
 
-export const db = await JSONFilePreset('./src/db.json', defaultData);
+export const db = await JSONFilePreset("./public/db.json", defaultData);

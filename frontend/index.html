@@ -8,16 +8,12 @@
     <title>FrontApi</title>
   </head>
   <body>
-    <div id="app"></div>
-
     <div class="container">
       <h1>Проверка API</h1>
 
       <form class="form" id="scheduleForm">
-        <div class="form__field">
-          <label class="form__label" for="employeeIds"
-            >ID сотрудников:</label
-          >
+        <section class="form__field">
+          <label class="form__label" for="employeeIds">ID сотрудников:</label>
           <input
             class="form__input"
             type="text"
@@ -27,10 +23,10 @@
             pattern="[0-9,]+"
             placeholder="Например: 1,2,3"
           />
-          <div class="form__error" id="employeeIds-error"></div>
-        </div>
+          <span class="form__error" id="employeeIds-error"></span>
+        </section>
 
-        <div class="form__field">
+        <section class="form__field">
           <label class="form__label" for="startDate">Дата начала:</label>
           <input
             class="form__input"
@@ -39,10 +35,10 @@
             name="startDate"
             required
           />
-          <div class="form__error" id="startDate-error"></div>
-        </div>
+          <span class="form__error" id="startDate-error"></span>
+        </section>
 
-        <div class="form__field">
+        <section class="form__field">
           <label class="form__label" for="endDate">Дата окончания:</label>
           <input
             class="form__input"
@@ -51,8 +47,8 @@
             name="endDate"
             required
           />
-          <div class="form__error" id="endDate-error"></div>
-        </div>
+          <span class="form__error" id="endDate-error"></span>
+        </section>
 
         <button class="form__submit" type="submit">Отправить запрос</button>
       </form>
