@@ -59,7 +59,7 @@ bun run start
 **Собрал полный цикл:**
 Фронт отправляет → сервер валидирует → сохраняет в JSON → данные не пропадают после перезапуска.
 
-**Скриншоты**
+## Скриншоты
 ![form](./public/img/form.jpg)
 ![json0](./public/img/json0.jpg)
 ![api0](./public/img/server0.jpg)
