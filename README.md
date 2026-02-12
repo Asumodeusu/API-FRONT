@@ -61,7 +61,6 @@ bun run start
 
 **Скриншоты**
 ![form](./public/img/form.jpg)
-_Форма_
 ![json0](./public/img/json0.jpg)
 ![api0](./public/img/server0.jpg)
 ![json1](./public/img/json1.jpg)
